@@ -308,16 +308,73 @@ deLete_btn_makeit = () =>
 cAp_btn_makeit = () =>
 {
 	commentBox.focus();
-	
+
+
 	if(cAp_btn.className === "cAp_btn false") // Checks if cap-button's class value is false which is default
 	{
 		cAp_btn.className = 'cAp_btn truth'; // Changes the class value to cAp_btn truth
 		cap_icON.style.color = 'white'; // Changes the cap-button's icon to white instead of default 'transparent'
+		
+
+		var letter_Q = document.getElementById('letter_Q').innerHTML = 'Q'; // This changes keyboard values are cap button is being toggled
+		var letter_W = document.getElementById('letter_W').innerHTML = 'W';
+		var letter_E = document.getElementById('letter_E').innerHTML = 'E';
+		var letter_R = document.getElementById('letter_R').innerHTML = 'R';
+		var letter_T = document.getElementById('letter_T').innerHTML = 'T';
+		var letter_Y = document.getElementById('letter_Y').innerHTML = 'Y';
+		var letter_U = document.getElementById('letter_U').innerHTML = 'U';
+		var letter_I = document.getElementById('letter_I').innerHTML = 'I';
+		var letter_O = document.getElementById('letter_O').innerHTML = 'O';
+		var letter_P = document.getElementById('letter_P').innerHTML = 'P';
+		var letter_A = document.getElementById('letter_A').innerHTML = 'A';
+		var letter_S = document.getElementById('letter_S').innerHTML = 'S';
+		var letter_D = document.getElementById('letter_D').innerHTML = 'D';
+		var letter_F = document.getElementById('letter_F').innerHTML = 'F';
+		var letter_G = document.getElementById('letter_G').innerHTML = 'G';
+		var letter_H = document.getElementById('letter_H').innerHTML = 'H';
+		var letter_J = document.getElementById('letter_J').innerHTML = 'J';
+		var letter_K = document.getElementById('letter_K').innerHTML = 'K';
+		var letter_L = document.getElementById('letter_L').innerHTML = 'L';
+		var letter_Z = document.getElementById('letter_Z').innerHTML = 'Z';
+		var letter_X = document.getElementById('letter_X').innerHTML = 'X';
+		var letter_C = document.getElementById('letter_C').innerHTML = 'C';
+		var letter_V = document.getElementById('letter_V').innerHTML = 'V';
+		var letter_B = document.getElementById('letter_B').innerHTML = 'B';
+		var letter_N = document.getElementById('letter_N').innerHTML = 'N';
+		var letter_M = document.getElementById('letter_M').innerHTML = 'M';
 	}
 	else
 	{
 		cAp_btn.className = 'cAp_btn false';
 		cap_icON.style.color = 'transparent';
+
+
+		var letter_Q = document.getElementById('letter_Q').innerHTML = 'q';
+		var letter_W = document.getElementById('letter_W').innerHTML = 'w';
+		var letter_E = document.getElementById('letter_E').innerHTML = 'e';
+		var letter_R = document.getElementById('letter_R').innerHTML = 'r';
+		var letter_T = document.getElementById('letter_T').innerHTML = 't';
+		var letter_Y = document.getElementById('letter_Y').innerHTML = 'y';
+		var letter_U = document.getElementById('letter_U').innerHTML = 'u';
+		var letter_I = document.getElementById('letter_I').innerHTML = 'i';
+		var letter_O = document.getElementById('letter_O').innerHTML = 'o';
+		var letter_P = document.getElementById('letter_P').innerHTML = 'p';
+		var letter_A = document.getElementById('letter_A').innerHTML = 'a';
+		var letter_S = document.getElementById('letter_S').innerHTML = 's';
+		var letter_D = document.getElementById('letter_D').innerHTML = 'd';
+		var letter_F = document.getElementById('letter_F').innerHTML = 'f';
+		var letter_G = document.getElementById('letter_G').innerHTML = 'g';
+		var letter_H = document.getElementById('letter_H').innerHTML = 'h';
+		var letter_J = document.getElementById('letter_J').innerHTML = 'j';
+		var letter_K = document.getElementById('letter_K').innerHTML = 'k';
+		var letter_L = document.getElementById('letter_L').innerHTML = 'l';
+		var letter_Z = document.getElementById('letter_Z').innerHTML = 'z';
+		var letter_X = document.getElementById('letter_X').innerHTML = 'x';
+		var letter_C = document.getElementById('letter_C').innerHTML = 'c';
+		var letter_V = document.getElementById('letter_V').innerHTML = 'v';
+		var letter_B = document.getElementById('letter_B').innerHTML = 'b';
+		var letter_N = document.getElementById('letter_N').innerHTML = 'n';
+		var letter_M = document.getElementById('letter_M').innerHTML = 'm';
 	}
 }
 
